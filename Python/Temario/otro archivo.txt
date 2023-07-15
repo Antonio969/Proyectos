@@ -1,2 +1,0 @@
- 
-Es una prueba para el programa 46 de la carpeta python 
