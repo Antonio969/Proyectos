@@ -1,0 +1,1 @@
+print("Tu marca de cerveza se llama: \n"+ '"' + input("Cual es tu animal guia? ") + " "+ input("Cual es tu color favorito? ")+'"')

@@ -1,0 +1,23 @@
+mi_set=set([1,2,3,4,5,1,2,3,4,5, (1,2,3,4,5)])
+print(type(mi_set))
+print(mi_set)
+print(len(mi_set))
+print(2 in mi_set)
+mi_set.add((82746232,23,23,4,453,23))
+print(mi_set)
+mi_set.remove(5)
+print(mi_set)
+mi_set.discard(6)
+print(mi_set)
+sorteo=mi_set.pop()
+print(mi_set)
+print(sorteo)
+mi_set.clear()
+print(mi_set)
+
+otro_set={1,2,3,8}
+print(type(otro_set))
+print(otro_set)
+
+set2=mi_set.union(otro_set)
+print(set2)
